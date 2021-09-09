@@ -1,0 +1,48 @@
+---
+name: integer-square
+break: true
+indent: 4
+---
+
+# Learn more about GatorGrader and its supported checks by visiting this web site:
+# https://github.com/GatorEducator/gatorgrader
+
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
+
+# --> check the Python program
+square/square/main.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "def compute_square_iterative(" --count 1 --exact
+    MatchFileFragment --fragment "def compute_square_while(" --count 1 --exact
+    MatchFileFragment --fragment "def compute_square_for(" --count 1 --exact
+    MatchFileFragment --fragment "def confirm_valid_file(" --count 1 --exact
+    MatchFileFragment --fragment "if confirm_valid_file" --count 1
+    MatchFileFragment --fragment "abs(value)" --count 2
+    CountMultipleLineComments --language Python --count 5
+    CountSingleLineComments --language Python --count 25
+
+# --> check the Python program
+square/tests/test_square.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "test_" --count 7 --exact
+    CountMultipleLineComments --language Python --count 8 --exact
+
+# --> check the technical writing for various characteristics
+writing/reflection.md:
+    ConfirmFileExists
+    CountFileWords --count 500
+    CountMarkdownTags --tag "heading" --count 17 --exact
+    CountMarkdownTags --tag "code_block" --count 7 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+    MatchFileFragment --fragment "5184" --count 3 --exact
+    MatchFileFragment --fragment "841" --count 5 --exact
+    MatchFileFragment --fragment "3721" --count 3 --exact
+
+# --> check that the number of commits in the Git repository is beyond a threshold
+CountCommits --count 5
