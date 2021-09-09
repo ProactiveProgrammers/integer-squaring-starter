@@ -48,9 +48,9 @@ def compute_square_iterative(
     """Compute the square of all of the integer values inside of the contents."""
     # TODO: create an empty list for the squared values
     # TODO: iterate through all of the items in the contents
-        # --> TODO: convert the line into a number
-        # --> TODO: perform the number squaring computation with square_function
-        # --> TODO: add the squared_number to the square_list
+    # --> TODO: convert the line into a number
+    # --> TODO: perform the number squaring computation with square_function
+    # --> TODO: add the squared_number to the square_list
     # TODO: return the list of the squared numbers
 
 
