@@ -60,7 +60,7 @@ def square(
     dir: Path = typer.Option(None),
     file: Path = typer.Option(None),
 ) -> None:
-    """Process a file by searching for a specified word."""
+    """Iteratively square all integers in a file."""
     # create a console for rich text output
     console = Console()
     # add extra space after the command to run the program
