@@ -51,4 +51,4 @@ def test_compute_square_iterative_for_loop():
 
 
 # TODO: Add a test case for confirming the correctness of the compute_square_iterative function
-# when it is using the square_function as main.compute_square_for
+# when it is using the square_function as main.compute_square_while
