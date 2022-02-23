@@ -18,7 +18,7 @@ TODO: Use a fenced code block to provide the output for this command.
 
 TODO: Use a fenced code block to provide the output for this command.
 
-- `poetry run square --approach for --dir input --file numbers.txt`
+- `poetry run square --approach while --dir input --file numbers.txt`
 
 ### Use an Itemized List to Provide the First Three Squared Integers in the Output Lists
 
