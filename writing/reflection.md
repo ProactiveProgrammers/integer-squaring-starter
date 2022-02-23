@@ -1,5 +1,11 @@
 # Integer Squaring
 
+TODO: Please make sure that you completely delete the TODO markers and
+their labels from every line of the `writing/reflection.md` file. This
+means that you should not simply delete the TODO marker but instead
+delete the entire prompt so that your reflection is a document of
+polished technical writing.
+
 ## Add Your Name Here
 
 ## Program Output
@@ -61,9 +67,15 @@ TODO: You may leverage your response to this question from S.O.S Week
 
 TODO: Describe the first way for running the program, giving a command and a paragraph
 
-TODO: Describe the first way for running the program, giving a command and a paragraph
+- TODO: provide a command
 
-TODO: Describe the first way for running the program, giving a command and a paragraph
+TODO: Describe the second way for running the program, giving a command and a paragraph
+
+- TODO: provide a command
+
+TODO: Describe the third way for running the program, giving a command and a paragraph
+
+- TODO: provide a command
 
 ### What was the greatest challenge that you faced when completing this assignment?
 
