@@ -1,4 +1,4 @@
-"""Perform integer squaring with different approaches."""
+# TODO: add a module-level docstring that describes the purpose of this file
 
 # TODO: import the Callable class for type annotations from the typing module
 # TODO: import the List class for type annotations from the typing module
