@@ -56,12 +56,10 @@ TODO: Write at least one paragraph to explain the request source code
 ### What is the purpose of the `pyproject.toml` file?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
-TODO: You may leverage your response to this question from S.O.S Week
 
 ### What is the purpose of the `poetry.lock` file?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
-TODO: You may leverage your response to this question from S.O.S Week
 
 ### What are three different ways in which you can run the `square` program?
 
